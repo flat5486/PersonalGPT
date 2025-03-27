@@ -3,12 +3,19 @@ info:
   title: Superface GPT API
   version: 1.0.0
 paths:
-  /ping:
-    get:
-      summary: Health check endpoint
-      operationId: ping
+  /api/hub/session:
+    post:
+      summary: Get session configuration
+      operationId: getSession
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              properties: {}
       responses:
         '200':
-          description: OK
+          description: Tool configuration response
 servers:
   - url: https://pod.superface.ai
