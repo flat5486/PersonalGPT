@@ -11,4 +11,4 @@ paths:
         '200':
           description: OK
 servers:
-  - url: https://monumental-swan-b6b2bf.netlify.app
+  - url: https://pod.superface.ai
