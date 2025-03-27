@@ -1,0 +1,15 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "superface_gpt",
+  "name_for_human": "Superface 연동 GPT",
+  "description_for_model": "Google Calendar, Gmail, Sheets 등을 Superface API로 제어합니다.",
+  "description_for_human": "캘린더 일정 추가, 삭제, 이메일 전송 등을 할 수 있는 GPT입니다.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://raw.githubusercontent.com/flat5486/PersonalGPT/main/openapi.yaml",
+    "is_user_authorized": false
+  }
+}

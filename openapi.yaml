@@ -1,0 +1,14 @@
+openapi: 3.1.0
+info:
+  title: Superface GPT API
+  version: 1.0.0
+paths:
+  /ping:
+    get:
+      summary: Health check endpoint
+      operationId: ping
+      responses:
+        '200':
+          description: OK
+servers:
+  - url: https://monumental-swan-b6b2bf.netlify.app
